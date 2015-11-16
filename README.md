@@ -1,11 +1,7 @@
 # TextToSVG 
 
-> My Sketch plugin
+Converts text to svg path
 
-## Install
-
-## Usage
-
-## License
-
-[Unlicense](http://unlicense.org/)
+Functions
+1. Create shape from path
+2. Copy path to clipboard 
