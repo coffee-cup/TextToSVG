@@ -1,0 +1,28 @@
+{
+  "author": "Jake Runzer",
+  "commands": [{
+    "script": "script.cocoascript",
+    "handler": "onRun",
+    "shortcut": "ctrl cmd o",
+    "name": "Text to SVG path",
+    "identifier": "texttosvg"
+  }, {
+    "script": "script.cocoascript",
+    "handler": "copyPath",
+    "shortcut": "ctrl cmd p",
+    "name": "Copy SVG Path",
+    "identifier": "copypath"
+  }],
+  "menu": {
+    "isRoot": false,
+    "items": [
+      "texttosvg",
+      "copypath"
+    ]
+  },
+  "identifier": "com.coffee-cup.sketch.texttosvg",
+  "version": "1.0",
+  "description": "Plugin that converts text to SVG path",
+  "authorEmail": "jakerunzer@gmail.com",
+  "name": "TextToSVG"
+}

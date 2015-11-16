@@ -1,0 +1,15 @@
+{
+  "name": "TextToSVG",
+  "version": "1.0.0",
+  "description": "Plugin that converts text to SVG path",
+  "license": "MIT",
+  "author": {
+    "name": "Jake Runzer",
+    "email": "jakerunzer@gmail.com"
+  },
+  "scripts": {
+    "manifest:update": "node ./tasks/manifest-update.js",
+    "plugin:install": "node ./tasks/plugin-install.js"
+  },
+  "private": true
+}
